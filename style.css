@@ -1,0 +1,28 @@
+#resultado {
+    width: 230px;
+    height: 30px;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.botao, .especial-coluna, .especial-linha {
+    width: 60px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botao:hover, .especial-coluna:hover, .especial-linha:hover {
+    background-color: black;
+    color: white;
+}
+.especial-coluna {
+    width: 124px;
+}
+.especial-linha {
+    height: 84px;
+}

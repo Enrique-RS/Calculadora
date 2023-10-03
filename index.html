@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora Simples</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,8 +14,8 @@
         <tr>
             <td><button class="botao" onclick="limpar('AC')">AC</button></td>
             <td><button class="botao" onclick="voltar('←')">←</button></td>
-            <td><button class="botao" onclick="inserir('÷')">/</button></td>
-            <td><button class="botao" onclick="inserir('x')">*</button></td>
+            <td><button class="botao" onclick="inserir('÷')">÷</button></td>
+            <td><button class="botao" onclick="inserir('x')">x</button></td>
         </tr>
         <tr>
             <td><button class="botao" onclick="inserir('7')">7</button></td>
@@ -33,11 +33,11 @@
             <td><button class="botao" onclick="inserir('1')">1</button></td>
             <td><button class="botao" onclick="inserir('2')">2</button></td>
             <td><button class="botao" onclick="inserir('3')">3</button></td>
-            <td rowspan="2"><button class="especial-linha" onclick="">=</button></td>
+            <td rowspan="2"><button class="especial-linha" onclick="calcular()">=</button></td>
         </tr>
         <tr>
             <td colspan="2"><button class="especial-coluna" onclick="inserir('0')">0</button></td>
-            <td><button class="botao" onclick="inserir(',')">,</button></td>
+            <td><button class="botao" onclick="inserir('.')">.</button></td>
         </tr>
     </table>
     <script src="calculadora.js"></script>
